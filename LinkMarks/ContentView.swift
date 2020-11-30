@@ -11,16 +11,20 @@ struct ContentView: View {
     var body: some View {
         
         VStack{
-            Text("Turtle Rock")
-                .fontWeight(.black)
-                .font(.title)
-                .foregroundColor(Color.green)
-            HStack{
-                Text("jello")
-                Spacer()
-                Text("hhh ")
+            MapView().frame(height:300)
+            CircleImageView(image: Image("fengjing")).offset(y:-130).padding(.bottom,-130).frame(width: 100, height: 100)
+            VStack{
+                Text("Turtle Rock")
+                    .font(.title)
+                HStack{
+                    Text("jello").font(.subheadline)
+                    Spacer()
+                    Text("hhh ").font(.subheadline)
+                }
             }
+           
         }.padding()
+        Spacer()
        
     }
 }
