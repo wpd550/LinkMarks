@@ -11,6 +11,7 @@
 		BCABFC0B2574F03E004518A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCABFC0A2574F03E004518A1 /* ContentView.swift */; };
 		BCABFC0D2574F03F004518A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCABFC0C2574F03F004518A1 /* Assets.xcassets */; };
 		BCABFC102574F03F004518A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCABFC0F2574F03F004518A1 /* Preview Assets.xcassets */; };
+		BCABFC192574F467004518A1 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCABFC182574F467004518A1 /* CircleImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		BCABFC0C2574F03F004518A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCABFC0F2574F03F004518A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BCABFC112574F03F004518A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCABFC182574F467004518A1 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				BCABFC082574F03E004518A1 /* LinkMarksApp.swift */,
 				BCABFC0A2574F03E004518A1 /* ContentView.swift */,
+				BCABFC182574F467004518A1 /* CircleImageView.swift */,
 				BCABFC0C2574F03F004518A1 /* Assets.xcassets */,
 				BCABFC112574F03F004518A1 /* Info.plist */,
 				BCABFC0E2574F03F004518A1 /* Preview Content */,
@@ -140,6 +143,7 @@
 			files = (
 				BCABFC0B2574F03E004518A1 /* ContentView.swift in Sources */,
 				BCABFC092574F03E004518A1 /* LinkMarksApp.swift in Sources */,
+				BCABFC192574F467004518A1 /* CircleImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "企业微信截图_86bc0148-ec1b-4d44-b953-8d998ccff7ac.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "企业微信截图_86bc0148-ec1b-4d44-b953-8d998ccff7ac-1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "企业微信截图_86bc0148-ec1b-4d44-b953-8d998ccff7ac-2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
