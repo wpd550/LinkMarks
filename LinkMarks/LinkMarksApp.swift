@@ -11,7 +11,8 @@ import SwiftUI
 struct LinkMarksApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            LandmarkDetail()
+            LandmarkList().environmentObject(UserData())
         }
     }
 }
